@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keyforger.application", "keyforger.application\keyforger.application.csproj", "{C7FDD582-1C2E-4E17-A33C-7AA3A8F5EB4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keyforger.domain", "keyforger.domain\keyforger.domain.csproj", "{06EFEDF4-B5D5-4061-BA0C-86CE53A8FEB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keyforger.infrastructure", "keyforger.infrastructure\keyforger.infrastructure.csproj", "{340E4313-768A-461D-B7B6-963C3FB5A41F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keyforger.api", "keyforger.api\keyforger.api.csproj", "{7CD2E047-B7B3-4D75-97D8-12736AD993AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keyforger.UnitTests", "keyforger.UnitTests\keyforger.UnitTests.csproj", "{BB38F431-F31A-4B85-B572-10D0734B2FF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keyforger.worker", "keyforger.worker\keyforger.worker.csproj", "{29881A72-1268-4797-88FF-5574B13D59AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7FDD582-1C2E-4E17-A33C-7AA3A8F5EB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FDD582-1C2E-4E17-A33C-7AA3A8F5EB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FDD582-1C2E-4E17-A33C-7AA3A8F5EB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FDD582-1C2E-4E17-A33C-7AA3A8F5EB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EFEDF4-B5D5-4061-BA0C-86CE53A8FEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EFEDF4-B5D5-4061-BA0C-86CE53A8FEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EFEDF4-B5D5-4061-BA0C-86CE53A8FEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EFEDF4-B5D5-4061-BA0C-86CE53A8FEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340E4313-768A-461D-B7B6-963C3FB5A41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340E4313-768A-461D-B7B6-963C3FB5A41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340E4313-768A-461D-B7B6-963C3FB5A41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340E4313-768A-461D-B7B6-963C3FB5A41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD2E047-B7B3-4D75-97D8-12736AD993AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD2E047-B7B3-4D75-97D8-12736AD993AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD2E047-B7B3-4D75-97D8-12736AD993AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD2E047-B7B3-4D75-97D8-12736AD993AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB38F431-F31A-4B85-B572-10D0734B2FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB38F431-F31A-4B85-B572-10D0734B2FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB38F431-F31A-4B85-B572-10D0734B2FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB38F431-F31A-4B85-B572-10D0734B2FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29881A72-1268-4797-88FF-5574B13D59AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29881A72-1268-4797-88FF-5574B13D59AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29881A72-1268-4797-88FF-5574B13D59AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29881A72-1268-4797-88FF-5574B13D59AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3D0DBD4-0614-474B-8FB7-5F832B90124D}
+	EndGlobalSection
+EndGlobal

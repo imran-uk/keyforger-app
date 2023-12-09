@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "keyforger.infrastructure": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63026;http://localhost:63029"
+    }
+  }
+}
